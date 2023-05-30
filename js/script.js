@@ -7,12 +7,12 @@
 "use strict"
 
 function buttonOneClicked() {
-  //This program takes a user-given number and adds every natural number from 1 to that number together, then giving you the sum
-  //Input through Textfield
+  // This program takes a user-given number and adds every natural number from 1 to that number together, then giving you the sum
+  // Input through Textfield
   const valueOfN = parseInt(document.getElementById("value-of-n").value)
   let answer = null
 
-  //Process
+  // Process
   if (valueOfN >= 1 && valueOfN % 1 == 0) {
     // Only allows positive, whole numbers above 0.
     for (let counter = 1; counter <= valueOfN; counter++) {
@@ -23,7 +23,7 @@ function buttonOneClicked() {
       "That input is not a natural number; it is either negative, zero, a decimal, or simply not a number."
   }
 
-  //Output
+  // Output
   if (valueOfN >= 1 && valueOfN % 1 == 0) {
     document.getElementById("answer").innerHTML =
       "The sum of all the numbers from 1 to " + valueOfN + " is: " + answer
