@@ -49,6 +49,11 @@ a {
   font-size: 20px;
 }
 
+#description {
+  font-size: 17px;
+  margin-top: -10px;
+}
+
 #button-one {
   margin-left: 60px;
   margin-top: 10px;
